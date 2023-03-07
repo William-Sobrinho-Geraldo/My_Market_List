@@ -53,10 +53,21 @@ fun NewItemScreen() {
             shape = RoundedCornerShape(10.dp),
             label = { Text(text = "Preço") },
         )
-
+// Marca do item
+        var mark by remember { mutableStateOf("") }
+        TextField(
+            value = mark,
+            onValueChange = {
+                mark = it
+            },
+            Modifier.fillMaxWidth(),
+            shape = RoundedCornerShape(10.dp),
+            label = { Text(text = "Marca") },
+        )
     }
 
 }
+
 
 @Preview(showSystemUi = true)
 @Composable
