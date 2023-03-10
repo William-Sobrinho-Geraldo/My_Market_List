@@ -65,7 +65,6 @@ fun NewItemScreen() {
             label = { Text(text = "Marca") },
         )
     }
-
 }
 
 

@@ -27,7 +27,7 @@ fun Item(
     ) {
         Row(
             Modifier
-                .background(Color.Gray)
+                .background(Color.LightGray)
                 .fillMaxSize()
         ) {
             Icon(
